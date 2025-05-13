@@ -5,11 +5,12 @@ export const MainPage = () => {
     <div 
       className="relative min-h-screen bg-cover bg-center flex flex-col items-center justify-center text-center px-4"
       style={{ 
-        backgroundImage: "url('./assets/mainBg.jpg')",
+        backgroundImage: "url('./mainBg.jpg')",
       }}
     >
+      <a href="./"></a>
       {/* Overlay oscuro para mejorar legibilidad */}
-      <div className="absolute inset-0 bg-black bg-opacity-40"></div>
+      
 
       {/* Contenido principal */}
       <div className="relative z-10 max-w-2xl">
