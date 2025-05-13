@@ -1,5 +1,5 @@
 import React from "react";
-
+import PawBtton from "../components/pawBtton";
 export const MainPage = () => {
   return (
     <div
@@ -34,8 +34,8 @@ export const MainPage = () => {
         {/* Botones */}
         <div className="flex flex-wrap justify-center gap-4 animate-fade-in delay-200">
           <button
-            className="px-8 py-3 rounded-full text-lg font-bold shadow-lg transition-all duration-300 
-             hover:scale-105 hover:skew-x-3 hover:bg-orange-600"
+            className="px-8 py-3 rounded-full text-lg font-bold shadow-lg 
+             transition-all duration-300 hover:scale-105 hover:-rotate-3"
             style={{
               backgroundColor: "#D97236",
               color: "#40170E",
@@ -44,7 +44,8 @@ export const MainPage = () => {
             🐶 Botón 1
           </button>
           <button
-            className="px-8 py-3 rounded-full text-lg font-bold shadow-lg transition-transform hover:scale-105"
+            className="px-8 py-3 rounded-full text-lg font-bold shadow-lg 
+             transition-all duration-300 hover:scale-105 hover:rotate-3"
             style={{
               backgroundColor: "#F2DCB3",
               color: "#40170E",
@@ -52,6 +53,9 @@ export const MainPage = () => {
           >
             🏡 Botón 2
           </button>
+          {/* Boton 
+          <PawBtton/>
+          */}
         </div>
       </div>
     </div>
