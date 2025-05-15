@@ -1,5 +1,5 @@
 import React from "react";
-import PawBtton from "../components/pawBtton";
+import PawBtton from "../../components/PawBtton";
 export const MainPage = () => {
   return (
     <div
